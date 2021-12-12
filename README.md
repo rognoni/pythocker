@@ -10,3 +10,11 @@ docker-compose up -d
 docker-compose exec py bash
 docker-compose down
 ```
+
+Inside docker (py bash):
+
+```
+source py-env/bin/activate
+fab --list
+fab hello
+```
